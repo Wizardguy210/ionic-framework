@@ -32,8 +32,8 @@ $searchbar-ios-input-search-icon-size:            1.375rem !default;
 /// @prop - Color of the searchbar input search icon
 $searchbar-ios-input-search-icon-color:           $text-color-step-400 !default;
 
-/// @prop - Height of the searchbar input
-$searchbar-ios-input-height:                      36px !default;
+/// @prop - Min height of the searchbar input
+$searchbar-ios-input-min-height:                      36px !default;
 
 /// @prop - Border radius of the searchbar input
 $searchbar-ios-input-border-radius:               10px !default;
