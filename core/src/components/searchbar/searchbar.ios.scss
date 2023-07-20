@@ -45,7 +45,7 @@
 // -----------------------------------------
 
 .searchbar-input {
-  @include padding(8px, 28px);
+  @include padding(8px, 1.75rem);
 
   height: 100%;
 
@@ -65,7 +65,7 @@
 
   position: absolute;
 
-  width: 30px;
+  width: 1.875rem;
   height: 100%;
 
   border: 0;
@@ -103,7 +103,6 @@
 :host(.searchbar-left-aligned) .searchbar-input {
   @include padding-horizontal(1.875rem, null);
 }
-
 
 // Searchbar Has Focus & Animated
 // -----------------------------------------
