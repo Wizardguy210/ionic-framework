@@ -17,7 +17,7 @@
 
   min-height: $searchbar-ios-input-height + $searchbar-ios-padding-top + $searchbar-ios-padding-bottom;
 
-  contain: strict;
+  contain: content;
 }
 
 .searchbar-input-container {
@@ -45,7 +45,7 @@
 // -----------------------------------------
 
 .searchbar-input {
-  @include padding(8px, null);
+  @include padding(8px, 0px);
 
   height: 100%;
 
