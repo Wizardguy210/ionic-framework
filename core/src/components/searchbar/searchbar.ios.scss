@@ -45,7 +45,7 @@
 // -----------------------------------------
 
 .searchbar-input {
-  @include padding(8px, 1.75rem);
+  @include padding(8px, null);
 
   height: 100%;
 
@@ -55,6 +55,14 @@
   contain: strict;
 }
 
+/**
+ * We should only account for the clear button
+ * if the clear button is actually visible. Otherwise
+ * long text in an input can get cut off when it does not need to.
+ */
+:host(.searchbar-has-value.searchbar-should-show-clear) .searchbar-input {
+  @include padding(null, 1.75rem);
+}
 
 // Searchbar Clear Input Icon
 // -----------------------------------------
