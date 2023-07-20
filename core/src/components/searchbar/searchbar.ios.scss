@@ -15,13 +15,13 @@
 
   @include padding($searchbar-ios-padding-top, $searchbar-ios-padding-end, $searchbar-ios-padding-bottom, $searchbar-ios-padding-start);
 
-  height: $searchbar-ios-input-height + $searchbar-ios-padding-top + $searchbar-ios-padding-bottom;
+  min-height: $searchbar-ios-input-height + $searchbar-ios-padding-top + $searchbar-ios-padding-bottom;
 
   contain: strict;
 }
 
 .searchbar-input-container {
-  height: $searchbar-ios-input-height;
+  min-height: $searchbar-ios-input-height;
 }
 
 
@@ -45,11 +45,11 @@
 // -----------------------------------------
 
 .searchbar-input {
-  @include padding(0, 28px);
+  @include padding(8px, 28px);
 
   height: 100%;
 
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 400;
 
   contain: strict;
